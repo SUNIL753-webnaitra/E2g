@@ -1,0 +1,287 @@
+@media screen and (max-width:991px) {
+
+    .nav-bar{
+      display: none;
+       
+      
+    }
+    .nav-bar1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+     }
+     
+    .nav-bar1 {
+        position: relative;
+        background-color: #fff;
+        z-index: 8;
+        padding: 10px;
+    }
+
+    .nav-bar1 ul {
+        position: absolute;
+        left: 0;
+        top: -200%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        width: 100%;
+        background-color: #fff;
+        transition: 0.5s;
+        align-items: start;
+        padding-inline: 10px;
+    }
+    .nav-bar1 ul li {
+        display: block;
+        align-items: start;
+        width: 100%;
+       
+       
+    }
+    ul.sub-menu {
+        display: none !important;
+    }
+
+    ul.sub-menu2 {
+        display: none !important;
+    }
+    ul.sub-menu3 {
+        display: none !important;
+    }
+    ul.sub-menu.active1 {
+        display: block !important;
+    }
+    ul.sub-menu2.active2 {
+        display: block !important;
+    }
+    ul.sub-menu3.active3 {
+        display: block !important;
+    }
+    .active .nav-bar1  ul > li >ul {
+        padding: 10px;
+    }
+
+
+    /* .active .nav-bar1  ul > li a:last-child {
+      border: none;
+ 
+        
+     }
+    .active .nav-bar1  ul > li:last-child {
+       background-color: aquamarine;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+padding: 8px;
+position: fixed;
+bottom: 0;
+right: 0;
+
+
+       
+    } */
+    .nav-bar1 ul li a {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+       
+       font-weight: 600;
+       
+    }
+    .mobile-menu-bar {
+   
+        display: block;
+      
+      }
+
+      .nav-bar1 ul li a {
+        color: #000;
+        
+    }
+
+    .nav-bar1 a img {
+        width: 70px;
+
+    }
+
+    .active .nav-bar1 ul {
+        top: 100%;
+       padding-bottom: 150px;
+       transition: 0.2s;
+    }
+
+    .active .nav-bar1 ul li a {
+        padding-block: 10px;
+        border-bottom: 1px solid #e6e6e6;
+
+       
+    }
+    .mk-svg-icon1{
+         fill:#444; 
+       
+    }
+    .mk-svg-icon2{
+        fill:#444;
+    }
+    .mk-svg-icon3{
+        fill:#444;
+    }
+
+    .mobile-menu-bar .fa-xmark {
+        display: none;
+    }
+    .mobile-menu-bar .fa-bars {
+        display: block;
+    }
+    
+
+    .active .mobile-menu-bar .fa-bars {
+       display: none;
+    }
+    .active .mobile-menu-bar .fa-xmark {
+        display: block;
+        font-size: 20px;
+        color: #000;
+    }
+
+   
+
+.active .nav-bar1  ul > li >ul {
+    position: relative;
+    display: block;
+}
+.active .nav-bar1  ul > li >ul {
+   
+}
+.active .nav-bar1  ul > li >ul > li {
+  
+}
+
+
+
+.active .nav-bar1  ul > li >ul > li >a{
+    border: none;
+    color: #222222;
+    font-weight: 400;
+}
+
+
+
+
+
+    .heading h1 {
+        font-size: 60px;
+    }
+    .heading h4 {
+        font-size: 30px;
+      
+    }
+    .growing h2{
+        font-size: 60px;
+    }
+    .growing h4 {
+        font-size: 22px;
+      
+    }
+    
+    
+    .growing-cards{
+      
+        grid-template-columns: repeat(3 ,1fr);
+       
+    }
+    .growing h2 {
+        font-size: 65px;
+    }
+    .footer-booton-icon {
+  
+       
+        display: block;
+      }
+    
+      .footer-middle-boxs {
+      
+        padding-inline: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .growing-cards{
+      
+        grid-template-columns: repeat(1 ,1fr);
+       
+    }
+    .module-boxs{
+       
+        grid-template-columns: repeat(1 ,1fr);
+       
+    }
+    .footer-top-box{
+      flex-direction: column;
+    }
+    .footer-heading h2 {
+      
+        text-align: center;
+    }
+    .footer-btn button {
+    
+        margin-top: 20px;
+    }
+    .footer-middle-boxs{
+       grid-template-columns: repeat(1 , 1fr);
+       text-align: center;
+
+    }
+    .footer-middle-box{
+        margin-top: 30px;
+    }
+    .product-box{
+        display: block;
+       
+    }
+    .product-img{
+        display: none;
+    }
+    .product-heading{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-btn {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .heading h1 {
+        font-size: 54px;
+    }
+    .footer-heading h2 {
+       
+        font-size: 14px;
+    }
+    .heading h1 {
+        font-size: 90px;
+        text-align: center;
+    }
+    .heading {
+       
+        padding-block: 120px;
+    }
+    .growing h2 {
+        font-size: 65px;
+    }
+    .Refarigeration h2 {
+       
+        font-size: 25px;
+    }
+}
+
